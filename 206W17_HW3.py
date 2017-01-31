@@ -15,12 +15,13 @@ import re
 ## The number in the <count> should be one or more digits only. The word should be made up of an optional non-alphabetic character followed by any number of alphabetic characters, upper or lower case.
 ## HINT:  \b matches the beginning or end of a word
 ## HINT:  you can use the Python re .findall method to get multiple matches in a string
-#parse_counted_words('5 watermelons, 13 pineapples, and 1 papaya.') should return ('1', 'papaya')
+# parse_counted_words('5 watermelons, 13 pineapples, and 1 papaya.') should return ('1', 'papaya')
 # parse_counted_words('101 dalmations!') should return ('101', 'dalmations') ...
 
 ## Write code to define your parse_counted_words function here.
-
-
+input_string = open('computer_paths.txt')
+def parse_counted_words(input_string):
+    return pass
 
 
 ## PART 2: 200 points
